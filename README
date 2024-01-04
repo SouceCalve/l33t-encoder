@@ -1,0 +1,8 @@
+EN:
+Small programmer to convert your text to l33t lang
+text >> 0x00
+0x01 >> l33t lang
+RU:
+Небольшая программа для конвертации вашего текста в l33t язык:
+текст после строки 0x00
+а l33t текст после строки 0x01
