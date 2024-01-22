@@ -12,53 +12,7 @@ while(1):
         if alphabet_ru.get(x,"NAN")!="NAN":
             xb=alphabet_ru[x]
             a+=xb
-        if x==" ":
-            a+=x
-        if x==",":
-            a+=x
-        if x==":":
-            a+=x
-        if x==";":
-            a+=x
-        if x==".":
-            a+=x
-        if x=="(":
-            a+=x
-        if x==")":
-            a+=x
-        if x=="{":
-            a+=x
-        if x=="}":
-            a+=x
-        if x=="?":
-            a+=x
-        if x=="%":
-            a+=x
-        if x=="@":
-            a+=x
-        if x=="!":
-            a+=x
-        if x=="#":
-            a+=x
-        if x=="%":
-            a+=x
-        if x=="*":
-            a+=x
-        if x=="=":
-            a+=x
-        if x=="-":
-            a+=x
-        if x=="_":
-            a+=x
-        if x=="&":
-            a+=x
-        if x=="/":
-            a+=x
-        if x=="|":
-            a+=x
-        if x=="~":
-            a+=x
-        if x=="`":
+        else:
             a+=x
     print("0x01:")
     print(a)
